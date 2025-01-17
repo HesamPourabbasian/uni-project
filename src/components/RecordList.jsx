@@ -79,7 +79,6 @@ const RecordList = ({ records, deleteRecord, updateRecord, sortRecords }) => {
           <option value="">فیلترسازی</option>
           <option value="id">مرتب سازی براساس شماره دانشجویی</option>
           <option value="name">مرتب سازی براساس نام</option>
-          <option value="key">مرتب سازی براساس معدل</option>
         </select>
       </div>
 
