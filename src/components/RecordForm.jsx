@@ -164,7 +164,7 @@ const RecordForm = ({ addRecord }) => {
           className={`border bg-white border-gray-300 rounded-lg w-full p-2 ${
             keyError ? "border-red-500" : "border-gray-300"
           }`}
-          placeholder="معدل (۰ تا ۲۰)"
+          placeholder="معدل ( مثلا ۰۴ یا ۱۴)"
           value={record.key}
           onChange={(e) => {
             const value = e.target.value;
